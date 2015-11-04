@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body{
+  background-image: url(http://i.ytimg.com/vi/rNNXNG5LHuU/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  Color:Purple;
+  font-size: 56px;
+  font-family: Comic Sans MS;
+}
+.myButton {
+	-moz-box-shadow:inset 50px 50px 50px 50px #e184f3;
+	-webkit-box-shadow:inset 50px 50px 50px 50px #e184f3;
+	box-shadow:inset 50px 50px 50px 50px #e184f3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+	background:-moz-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-webkit-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-o-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-ms-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd',GradientType=0);
+	background-color:#c123de;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:12px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:23px 7px 50px #9b14b3;
+  margin-top: 350px;
+  margin-left: 200px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+	background:-moz-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-webkit-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-o-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-ms-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de',GradientType=0);
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+p{
+  font-size:25px;
+  font-family: Oswald;
+}
+
+saved links: http://orig00.deviantart.net/c008/f/2013/345/9/f/pikachu_s_back_shirt_by_amayaxsin-d6xkgre.png
+http://30.media.tumblr.com/tumblr_lrwf4a2I9j1qfiuz5o1_500.gif
