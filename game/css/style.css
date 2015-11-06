@@ -56,6 +56,11 @@ p{
   font-family: Oswald;
 }
 
+#click {
+	width: 1200px;
+	height: 800px;
+}
+
 #m1 {
     background-image: url("http://orig15.deviantart.net/2b51/f/2012/187/c/9/magma_dragoon_sprite_in_16_bit_by_danmanx5792-d56a4qi.png");
     background-repeat: no-repeat;
@@ -67,9 +72,36 @@ p{
     left: 30px;
     display:none;
     transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: linear; 
-    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
 }
 #m2 {
     background-image: url("http://img15.deviantart.net/9242/i/2013/330/1/4/mega_man_tt_s_metren_lagann_by_justedesserts-d4h5pdc.png");
@@ -81,6 +113,36 @@ p{
     top: 10px;
     left: 30px;
     display:none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
 }
 #m3 {
     background-image: url("http://img08.deviantart.net/57f8/i/2013/322/b/f/mega_man_tt_s_shock_man_by_justedesserts-d3rgkbr.png");
@@ -92,7 +154,37 @@ p{
     top: 10px;
     left: 30px;
     display:none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
 }
+
 #m4 {
     background-image: url("http://images4.wikia.nocookie.net/__cb20100929185329/megaman/images/3/3a/MM10PunkArt.jpg");
     background-repeat: no-repeat;
@@ -103,5 +195,36 @@ p{
     top: 10px;
     left: 30px;
     display:none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:25%; top:25%;}
+    50%  {left:50%; top:50%;}
+    75%  {left:75%; top:75%;}
+    100% {left:100%; top:100%;}
 }
+
 
